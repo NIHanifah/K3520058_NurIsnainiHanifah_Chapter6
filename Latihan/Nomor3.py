@@ -5,8 +5,6 @@ def faktorial(n):
         x = x * n
         n = n - 1
     return x
-    
-print(faktorial(4))
 
 #Kombinasi
 C = faktorial(5) / (faktorial(3) * faktorial(2))
